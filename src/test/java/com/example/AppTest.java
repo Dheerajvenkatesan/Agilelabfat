@@ -6,12 +6,12 @@ import static org.junit.jupiter.api.Assertions.*;
 public class AppTest {
 
     @Test
-    void testEven() {
+    void testpay() {
         assertEquals("Payslip for Employee", App.payslip(1000));
     }
 
     @Test
-    void testOdd() {
+    void testwages() {
         assertEquals("Daliy Wages", App.payslip(50000));
     }
 }
